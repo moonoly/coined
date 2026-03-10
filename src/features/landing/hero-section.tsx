@@ -46,7 +46,7 @@ export function HeroSection() {
           variant="primary"
         >
           <a
-            href="https://cal.com/nyomansunima/connects"
+            href="https://cal.com/nyomansunima/coined"
             rel="noopener"
             target="_blank"
           >
