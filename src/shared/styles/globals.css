@@ -9,6 +9,8 @@
   --font-*: initial;
   --font-sans: "Schibsted Grotesk", sans-serif;
 
+  --text-base: 0.945rem;
+
   --color-background: hsl(0 0 98%);
   --color-foreground: hsl(0 0 0%);
   --color-surface: hsl(0 0 100%);
@@ -40,8 +42,8 @@
   }
 
   body {
-    @apply text-base font-normal leading-normal text-foreground bg-background font-sans antialiased selection:bg-blue-100/90 selection:text-blue-950;
     font-style: normal;
+    @apply text-base font-normal leading-normal text-foreground bg-background font-sans subpixel-antialiased selection:bg-blue-100/90 selection:text-blue-950;
   }
 
   .fi {
@@ -70,8 +72,8 @@
   font-weight: var(--font-weight-normal);
 
   a {
-    text-decoration: "none";
     font-weight: 400 !important;
+    text-decoration: "none";
 
     &:hover {
       text-decoration: "underline";

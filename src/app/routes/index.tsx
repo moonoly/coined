@@ -1,5 +1,6 @@
 import {
   HeroSection,
+  LetterSection,
   TestimonialsSection,
   WorksSection,
 } from "@features/landing";
@@ -23,6 +24,7 @@ function RouteComponent() {
       <HeroSection />
       <TestimonialsSection />
       <WorksSection />
+      <LetterSection />
     </div>
   );
 }

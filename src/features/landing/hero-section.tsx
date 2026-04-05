@@ -30,18 +30,20 @@ export function HeroSection() {
         </defs>
       </svg>
 
-      <h1 className="mt-6 text-pretty font-medium text-xl tracking-tighter sm:text-balance">
-        We partners with startups and enterprises to build their products and
-        brands.
+      <h1 className="mt-6 text-pretty font-medium text-xl tracking-tight sm:text-balance">
+        Helping startups and enterprises to ship the products and brands
+        globally.
       </h1>
-      <p className="mt-4 text-pretty leading-relaxed tracking-tight">
-        Built softwares, websites, brands & systems that lift the profits,
+      <p className="mt-4 text-pretty text-foreground/60 leading-relaxed">
+        Successfully helped businesses to{" "}
+        <span className="text-foreground italic">increase 5M+ in revenue</span>.
+        We built softwares, websites, brands & systems that lift the profits,
         increase efficiencies and reduce the costs.
       </p>
-      <div className="mt-10 flex items-center">
+      <div className="mt-10 flex items-center gap-3">
         <Button
           asChild
-          className="transition- duration-300 hover:-translate-y-0.5"
+          className="transition-all duration-300 hover:-translate-y-0.5"
           size="sm"
           variant="primary"
         >
@@ -62,6 +64,31 @@ export function HeroSection() {
               />
             </svg>
             Book a call
+          </a>
+        </Button>
+        <Button
+          asChild
+          className="transition-all duration-300 hover:-translate-y-0.5"
+          size="sm"
+          variant="secondary"
+        >
+          <a
+            href="https://api.whatsapp.com/send?phone=6281330990903"
+            rel="noopener"
+            target="_blank"
+          >
+            <svg
+              height="14"
+              viewBox="0 0 24 24"
+              width="14"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M12.836,.028C9.364-.202,5.96,1.066,3.509,3.521,1.057,5.977-.211,9.378,.03,12.854c.44,6.354,6.052,11.146,13.053,11.146h5.917c2.757,0,5-2.243,5-5v-6.66C24,5.861,19.097,.454,12.836,.028Zm-1.836,12.972c0,2.206-1.794,4-4,4-.552,0-1-.447-1-1s.448-1,1-1c1.103,0,2-.897,2-2h-1.5c-.828,0-1.5-.672-1.5-1.5v-1.5c0-1.105,.895-2,2-2h1.5c.828,0,1.5,.672,1.5,1.5v3.5Zm7,0c0,2.206-1.794,4-4,4-.553,0-1-.447-1-1s.447-1,1-1c1.103,0,2-.897,2-2h-1.5c-.828,0-1.5-.672-1.5-1.5v-1.5c0-1.105,.895-2,2-2h1.5c.828,0,1.5,.672,1.5,1.5v3.5Z"
+                fill="currentColor"
+              />
+            </svg>
+            Chat now
           </a>
         </Button>
       </div>
