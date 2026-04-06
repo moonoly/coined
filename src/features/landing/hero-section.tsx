@@ -36,9 +36,14 @@ export function HeroSection() {
       </h1>
       <p className="mt-4 text-pretty text-foreground/60 leading-relaxed">
         Successfully helped businesses to{" "}
-        <span className="text-foreground italic">increase 5M+ in revenue</span>.
-        We built softwares, websites, brands & systems that lift the profits,
-        increase efficiencies and reduce the costs.
+        <span className="text-foreground italic font-medium">
+          increased $5M+ in revenue
+        </span>
+        . We built softwares, websites, brands & systems{" "}
+        <span className="italic text-foreground">
+          that lift the profits, increase efficiencies and reduce the costs
+        </span>
+        .
       </p>
       <div className="mt-10 flex items-center gap-3">
         <Button

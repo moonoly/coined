@@ -5,19 +5,24 @@ export function LetterSection() {
       <div className="mt-6 flex rounded-xl border border-border border-dashed bg-surface px-5 py-7">
         <div className="prose text-foreground/60 leading-relaxed">
           <p>
-            Hi, I'm{" "}
-            <span className="text-foreground italic">Nyoman Sunima</span>,
+            Hi, i'm{" "}
+            <span className="text-foreground italic">nyoman sunima</span>,
             founder of Coined.
           </p>
           <p>
-            We have learned so much about building companies, copywriting, tone,
-            presentation & communication because of people like you.
+            We have learned so much about building{" "}
+            <span className="italic text-foreground">
+              companies, copywriting, tone, presentation & communication
+            </span>{" "}
+            because of people like you.
           </p>
           <p>
-            We strive to help you build software and make Al beautiful through
-            meticulous attention to detail & endless iterations on the tiniest
-            ideas. It's what we signed up for when we didn't know how our Studio
-            is going to be named.
+            We strive to help you{" "}
+            <span className="text-foreground">
+              build software and make it beautiful through meticulous attention
+              to detail & endless iterations
+            </span>{" "}
+            on the tiniest ideas.
           </p>
           <p>
             We hope to keep building our internal software as well as large,
@@ -26,10 +31,12 @@ export function LetterSection() {
           <p>
             What's the next big thing you're building?
             <br />
-            Send the message. We'd love to hear.
+            <span className="text-foreground italic">
+              Send the message. We'd love to hear.
+            </span>
           </p>
 
-          <p>Sincerely.</p>
+          <p className="text-foreground">Sincerely.</p>
         </div>
       </div>
     </section>

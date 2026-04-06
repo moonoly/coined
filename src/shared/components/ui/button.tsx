@@ -14,6 +14,7 @@ const buttonVariants = tv({
     },
     size: {
       base: "h-10 rounded-full px-4",
+      xs: "h-8 rounded-full px-3 text-sm",
       sm: "h-9 rounded-full px-4",
       md: "h-14 rounded-2xl rounded-full px-6",
       lg: "h-16 rounded-2xl rounded-full px-8",
