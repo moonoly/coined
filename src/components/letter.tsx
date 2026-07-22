@@ -11,7 +11,7 @@ export function LetterSection() {
           </p>
           <p>
             We have learned so much about building{" "}
-            <span className="italic text-foreground">
+            <span className="text-foreground italic">
               companies, copywriting, tone, presentation & communication
             </span>{" "}
             because of people like you.

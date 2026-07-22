@@ -1,31 +1,34 @@
+import { cloudflare } from "@cloudflare/vite-plugin";
 import tailwindcss from "@tailwindcss/vite";
 import { tanstackStart } from "@tanstack/react-start/plugin/vite";
 import react from "@vitejs/plugin-react";
-import { nitro } from "nitro/vite";
 import { defineConfig } from "vite";
 
 export default defineConfig({
+  plugins: [
+    tailwindcss(),
+    tanstackStart({
+      prerender: {
+        autoSubfolderIndex: true,
+        crawlLinks: true,
+        enabled: false,
+      },
+      sitemap: {
+        enabled: true,
+        host: "https://thecoined.site",
+      },
+      srcDirectory: "src/app",
+    }),
+    react(),
+    cloudflare({ viteEnvironment: { name: "ssr" } }),
+  ],
+  preview: {
+    port: 3000,
+  },
   resolve: {
     tsconfigPaths: true,
   },
   server: {
     port: 3000,
   },
-  plugins: [
-    tailwindcss(),
-    tanstackStart({
-      srcDirectory: "src/app",
-      prerender: {
-        enabled: false,
-        autoSubfolderIndex: true,
-        crawlLinks: true,
-      },
-      sitemap: {
-        enabled: true,
-        host: "https://www.thecoined.site",
-      },
-    }),
-    react(),
-    nitro(),
-  ],
 });

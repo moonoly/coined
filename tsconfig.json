@@ -3,14 +3,9 @@
     "target": "ES2022",
     "jsx": "react-jsx",
     "lib": ["ES2022", "DOM", "DOM.Iterable"],
-    "baseUrl": ".",
     "module": "ESNext",
     "moduleResolution": "bundler",
     "paths": {
-      "@features/*": ["./src/features/*"],
-      "@shared/*": ["./src/shared/*"],
-      "@app/*": ["./src/app/*"],
-      "content-collections": ["./.content-collections/generated"],
       "~/*": ["./src/*"]
     },
     "types": ["vite/client"],

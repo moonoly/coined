@@ -6,7 +6,6 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
-  --font-*: initial;
   --font-sans: "Schibsted Grotesk", sans-serif;
 
   --text-base: 0.945rem;

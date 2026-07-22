@@ -1,21 +1,19 @@
-import {
-  HeroSection,
-  LetterSection,
-  TestimonialsSection,
-  WorksSection,
-} from "@features/landing";
-import { generatedMetadata } from "@shared/libs/shared-metadata";
 import { createFileRoute } from "@tanstack/react-router";
+import { HeroSection } from "~/components/hero";
+import { LetterSection } from "~/components/letter";
+import { TestimonialsSection } from "~/components/testimonials";
+import { WorksSection } from "~/components/works";
+import { generatedMetadata } from "~/libs/shared-metadata";
 
 export const Route = createFileRoute("/")({
+  component: RouteComponent,
   head: () => ({
     meta: generatedMetadata({
-      title: "The Businesses Growth & Success Partner | Coined",
       description:
         "We help small business, startups, and professional grow, scale & win the game by create stunning products, ship faster & scale into millions.",
+      title: "The Businesses Growth & Success Partner | Coined",
     }),
   }),
-  component: RouteComponent,
 });
 
 function RouteComponent() {

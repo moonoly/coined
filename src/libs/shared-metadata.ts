@@ -20,53 +20,53 @@ export function generatedMetadata({
   return [
     { title },
     {
-      name: "description",
       content: description,
+      name: "description",
     },
     {
-      name: "keywords",
       content:
         "Web Designer, Agency, Landing page design, Web Developer, ROI, Lift Profit, Converting Landing Page",
+      name: "keywords",
     },
-    { name: "creator", content: "Weebo" },
-    { name: "publisher", content: "Weebo" },
-    { name: "application-name", content: "Weebo" },
-    { name: "google-site-verification", content: "" },
-    { name: "category", content: "Websites" },
-    { name: "generator", content: "Tanstack start" },
-    { name: "pinterest-rich-pin", content: "true" },
+    { content: "Weebo", name: "creator" },
+    { content: "Weebo", name: "publisher" },
+    { content: "Weebo", name: "application-name" },
+    { content: "", name: "google-site-verification" },
+    { content: "Websites", name: "category" },
+    { content: "Tanstack start", name: "generator" },
+    { content: "true", name: "pinterest-rich-pin" },
     {
+      content: title,
       name: "og:title",
-      content: title,
     },
     {
+      content: description,
       name: "og:description",
-      content: description,
     },
     {
-      name: "og:image",
       content:
         image ??
         "https://cdn.hashnode.com/res/hashnode/image/upload/v1764832682755/704c4073-97bb-4002-97cc-cba286b7bb39.png",
+      property: "og:image",
     },
-    { name: "og:locale", content: "en_US" },
-    { name: "og:type", content: "website" },
+    { content: "en_US", property: "og:locale" },
+    { content: "website", property: "og:type" },
     {
-      name: "twitter:title",
       content: title,
+      name: "twitter:title",
     },
     {
-      name: "twitter:description",
       content: description,
+      name: "twitter:description",
     },
-    { name: "twitter:card", content: "summary_large_image" },
-    { name: "twitter:site", content: "Weebo" },
-    { name: "twitter:creator", content: "@nyomansunima" },
+    { content: "summary_large_image", name: "twitter:card" },
+    { content: "Weebo", name: "twitter:site" },
+    { content: "@nyomansunima", name: "twitter:creator" },
     {
-      name: "twitter:image",
       content:
         image ??
         "https://cdn.hashnode.com/res/hashnode/image/upload/v1764832682755/704c4073-97bb-4002-97cc-cba286b7bb39.png",
+      name: "twitter:image",
     },
   ];
 }

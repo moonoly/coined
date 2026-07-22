@@ -1,34 +1,33 @@
-import { Button } from "@shared/components/ui/button";
-import styles from "@shared/styles/globals.css?url";
 import { createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
+import styles from "~/app/globals.css?url";
 
 interface RootDocumentProps {
   children: React.ReactNode;
 }
 
 export const Route = createRootRoute({
+  errorComponent: ErrorComponent,
   head: () => ({
+    links: [
+      { href: "/favicon.ico", rel: "icon", type: "image/x-icon" },
+      { href: "/sitemap.xml", rel: "sitemap", type: "application/xml" },
+      {
+        href: styles,
+        rel: "stylesheet",
+      },
+    ],
     meta: [
       {
         charSet: "utf-8",
       },
       {
-        name: "viewport",
         content: "width=device-width, initial-scale=1",
-      },
-    ],
-    links: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.ico" },
-      { rel: "sitemap", type: "application/xml", href: "/sitemap.xml" },
-      {
-        rel: "stylesheet",
-        href: styles,
+        name: "viewport",
       },
     ],
   }),
-  shellComponent: RootDocument,
   notFoundComponent: NotFondComponent,
-  errorComponent: ErrorComponent,
+  shellComponent: RootDocument,
 });
 
 function RootDocument({ children }: RootDocumentProps) {
@@ -64,12 +63,10 @@ function NotFondComponent() {
         </div>
 
         <div className="mt-10 flex">
-          <Button asChild variant={"secondary"}>
-            <a href="/">
-              <i className="fi fi-sr-arrow-alt-circle-left" />
-              Bring me back
-            </a>
-          </Button>
+          <a href="/">
+            <i className="fi fi-sr-arrow-alt-circle-left" />
+            Bring me back
+          </a>
         </div>
       </section>
     </main>
@@ -93,12 +90,10 @@ function ErrorComponent() {
         </div>
 
         <div className="mt-10 flex">
-          <Button asChild variant={"secondary"}>
-            <a href="/">
-              <i className="fi fi-sr-arrow-alt-circle-left" />
-              Bring me back
-            </a>
-          </Button>
+          <a href="/">
+            <i className="fi fi-sr-arrow-alt-circle-left" />
+            Bring me back
+          </a>
         </div>
       </section>
     </main>
