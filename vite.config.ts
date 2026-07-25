@@ -11,11 +11,11 @@ export default defineConfig({
       prerender: {
         autoSubfolderIndex: true,
         crawlLinks: true,
-        enabled: false,
+        enabled: true,
       },
       sitemap: {
         enabled: true,
-        host: "https://thecoined.site",
+        host: "https://www.thecoined.site",
       },
       srcDirectory: "src/app",
     }),
