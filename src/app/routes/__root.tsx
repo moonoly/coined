@@ -1,4 +1,6 @@
 import { createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
+import * as cuelume from "cuelume";
+import * as React from "react";
 import styles from "~/app/globals.css?url";
 
 interface RootDocumentProps {
@@ -31,6 +33,10 @@ export const Route = createRootRoute({
 });
 
 function RootDocument({ children }: RootDocumentProps) {
+  React.useEffect(() => {
+    cuelume.bind();
+  }, []);
+
   return (
     <html lang="en">
       <head>

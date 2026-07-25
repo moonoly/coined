@@ -3,6 +3,9 @@ export function HeroSection() {
     <section className="flex flex-col">
       <svg
         className="cursor-pointer transition-transform duration-300 hover:-translate-y-0.5"
+        data-cuelume-hover
+        data-cuelume-press
+        data-cuelume-release
         fill="none"
         height="36"
         viewBox="0 0 512 512"
@@ -46,6 +49,7 @@ export function HeroSection() {
       <div className="mt-10 flex items-center gap-3">
         <a
           className="flex h-9 select-none items-center gap-1 rounded-full bg-primary px-4 font-medium text-primary-foreground text-sm leading-none tracking-tight outline-none transition-all duration-300 hover:-translate-y-0.5"
+          data-cuelume-hover="droplet"
           href="https://cal.com/nyomansunima/coined"
           rel="noopener"
           target="_blank"
@@ -68,6 +72,7 @@ export function HeroSection() {
 
         <a
           className="flex h-9 select-none items-center gap-1 rounded-full bg-secondary px-4 font-medium text-secondary-foreground text-sm leading-none tracking-tight outline-none transition-all duration-300 hover:-translate-y-0.5"
+          data-cuelume-hover="droplet"
           href="https://api.whatsapp.com/send?phone=6281330990903"
           rel="noopener"
           target="_blank"
