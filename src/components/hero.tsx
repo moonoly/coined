@@ -31,9 +31,10 @@ export function HeroSection() {
         </defs>
       </svg>
 
-      <h1 className="mt-6 text-pretty font-medium text-xl tracking-tight sm:text-balance">
-        Helping startups and enterprises to ship the products and brands
-        globally.
+      <h1 className="mt-10 text-pretty font-medium text-xl tracking-tight sm:text-balance">
+        Helping startups
+        <br />
+        ship brands globally.
       </h1>
       <p className="mt-4 text-pretty text-foreground/60 leading-relaxed">
         Successfully helped businesses to{" "}
@@ -49,7 +50,7 @@ export function HeroSection() {
       <div className="mt-10 flex items-center gap-3">
         <a
           className="flex h-9 select-none items-center gap-1 rounded-full bg-primary px-4 font-medium text-primary-foreground text-sm leading-none tracking-tight outline-none transition-all duration-300 hover:-translate-y-0.5"
-          data-cuelume-hover="droplet"
+          data-cuelume-hover="tick"
           href="https://cal.com/nyomansunima/coined"
           rel="noopener"
           target="_blank"
@@ -72,7 +73,7 @@ export function HeroSection() {
 
         <a
           className="flex h-9 select-none items-center gap-1 rounded-full bg-secondary px-4 font-medium text-secondary-foreground text-sm leading-none tracking-tight outline-none transition-all duration-300 hover:-translate-y-0.5"
-          data-cuelume-hover="droplet"
+          data-cuelume-hover="tick"
           href="https://api.whatsapp.com/send?phone=6281330990903"
           rel="noopener"
           target="_blank"

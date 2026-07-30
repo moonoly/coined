@@ -35,13 +35,14 @@ export function generatedMetadata({
     { content: "Websites", name: "category" },
     { content: "Tanstack start", name: "generator" },
     { content: "true", name: "pinterest-rich-pin" },
+    { content: "#ffffff", name: "theme-color" },
     {
       content: title,
-      name: "og:title",
+      property: "og:title",
     },
     {
       content: description,
-      name: "og:description",
+      property: "og:description",
     },
     {
       content:
@@ -49,8 +50,22 @@ export function generatedMetadata({
         "https://cdn.hashnode.com/res/hashnode/image/upload/v1764832682755/704c4073-97bb-4002-97cc-cba286b7bb39.png",
       property: "og:image",
     },
+    {
+      content: title,
+      property: "og:image:alt",
+    },
+    {
+      content: "2048",
+      property: "og:image:width",
+    },
+    {
+      content: "1536",
+      property: "og:image:height",
+    },
     { content: "en_US", property: "og:locale" },
     { content: "website", property: "og:type" },
+    { content: "Coined", property: "og:site_name" },
+    { content: "https://thecoined.site", property: "og:url" },
     {
       content: title,
       name: "twitter:title",
