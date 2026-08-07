@@ -27,22 +27,17 @@ const works: Work[] = [
 
 function WorkItem({ work }: WorksSectionProps) {
   return (
-    <div className="flex cursor-pointer rounded-xl border border-border border-dashed bg-surface p-1 transition-transform duration-300 hover:-translate-y-0.5">
-      <img
-        alt={work.title}
-        className="h-60 w-full overflow-hidden rounded-lg object-cover sm:h-96"
-        src={work.image}
-      />
-    </div>
+    <img
+      alt={work.title}
+      className="h-60 w-full cursor-pointer overflow-hidden rounded-lg object-cover sm:h-96"
+      src={work.image}
+    />
   );
 }
 
 export function WorksSection() {
   return (
-    <section className="flex flex-col">
-      <div className="flex items-center">
-        <h2 className="font-medium text-xl tracking-tighter">Works.</h2>
-      </div>
+    <section className="mt-10 flex flex-col">
       <div className="mt-6 flex flex-col gap-3">
         {works.map((work, index) => (
           <WorkItem key={index} work={work} />

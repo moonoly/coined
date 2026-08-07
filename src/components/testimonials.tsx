@@ -1,6 +1,6 @@
 function TestimonialItem() {
   return (
-    <div className="group relative flex cursor-pointer flex-col rounded-xl border border-border border-dashed bg-surface p-5 transition-transform duration-300 hover:-translate-y-0.5">
+    <div className="group relative flex cursor-pointer flex-col rounded-lg bg-surface p-5 transition-transform duration-300 hover:-translate-y-0.5">
       <svg
         className="absolute top-5 right-5 -rotate-6"
         fill="none"
@@ -17,7 +17,7 @@ function TestimonialItem() {
         <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z" />
       </svg>
 
-      <p className="text-pretty text-foreground/60 leading-relaxed sm:p-3">
+      <p className="text-pretty text-foreground leading-relaxed sm:p-3">
         Coined really nailed the design & development, works perfectly.
         Everything work seamlessly and the design looks sick, fast delivery,
         seamless communications. Just amazing work.
@@ -48,8 +48,10 @@ function TestimonialItem() {
 
 export function TestimonialsSection() {
   return (
-    <section className="flex flex-col">
-      <h2 className="font-medium text-xl tracking-tight">Testimonials.</h2>
+    <section className="mt-24 flex flex-col">
+      <h2 className="text-balance text-3xl tracking-tight sm:text-5xl">
+        People trusted what we do.
+      </h2>
       <div className="mt-6 flex">
         <TestimonialItem />
       </div>

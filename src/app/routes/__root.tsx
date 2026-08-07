@@ -43,7 +43,7 @@ function RootDocument({ children }: RootDocumentProps) {
         <HeadContent />
       </head>
       <body className="container mx-auto px-5 pt-10 pb-20 md:pt-16 lg:px-0">
-        <div className="mx-auto w-full sm:w-10/12 md:w-11/12 lg:w-6/12 xl:w-5/12">
+        <div className="mx-auto w-full sm:w-10/12 sm:px-5 md:w-11/12 lg:w-6/12 xl:w-5/12">
           {children}
         </div>
         <Scripts />
