@@ -15,3 +15,6 @@ dist
 
 # vercel
 .vercel
+
+# Clouds
+.wrangler
