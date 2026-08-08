@@ -29,7 +29,7 @@ function WorkItem({ work }: WorksSectionProps) {
   return (
     <img
       alt={work.title}
-      className="h-60 w-full cursor-pointer overflow-hidden rounded-lg object-cover sm:h-96"
+      className="aspect-4/3 w-full cursor-pointer overflow-hidden rounded-md object-cover object-top"
       src={work.image}
     />
   );
