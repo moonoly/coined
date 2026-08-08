@@ -1,12 +1,29 @@
 export function HeroSection() {
   return (
-    <section className="flex flex-col sm:pt-16">
+    <section className="flex flex-col">
       <div className="flex">
-        <span className="cursor-pointer rounded-full border border-fuchsia-100 bg-fuchsia-50 px-3 py-1 font-medium text-fuchsia-600 text-xs">
+        <span className="inline-flex select-none items-center gap-1 text-foreground/40 text-sm">
+          Today{" "}
+          <svg
+            fill="none"
+            height={12}
+            stroke="currentColor"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth={2}
+            viewBox="0 0 24 24"
+            width={12}
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0 0h24v24H0z" fill="none" stroke="none" />
+            <path d="M9 9l3 3l-3 3" />
+            <path d="M13 9l3 3l-3 3" />
+            <path d="M12 3c7.2 0 9 1.8 9 9c0 7.2 -1.8 9 -9 9c-7.2 0 -9 -1.8 -9 -9c0 -7.2 1.8 -9 9 -9" />
+          </svg>
           2 slot available
         </span>
       </div>
-      <h1 className="mt-3 text-balance text-3xl tracking-tight sm:text-4xl">
+      <h1 className="mt-3 text-balance text-3xl tracking-tight">
         Helping startups
         <br />
         ship products globally.
@@ -17,7 +34,7 @@ export function HeroSection() {
       </p>
       <div className="mt-10 flex items-center gap-3">
         <a
-          className="flex h-9 select-none items-center gap-1 rounded-full bg-primary px-4 font-heading font-medium text-primary-foreground text-sm leading-none tracking-tight outline-none transition-all duration-300 hover:-translate-y-0.5"
+          className="flex h-8 select-none items-center gap-1 rounded-lg bg-primary px-3 font-heading font-medium text-primary-foreground text-sm leading-none tracking-tight outline-none transition-all duration-300 hover:-translate-y-0.5"
           data-cuelume-hover="tick"
           href="https://cal.com/nyomansunima/coined"
           rel="noopener"
@@ -40,7 +57,7 @@ export function HeroSection() {
         </a>
 
         <a
-          className="flex h-9 select-none items-center gap-1 rounded-full bg-secondary px-4 font-heading font-medium text-secondary-foreground text-sm leading-none tracking-tight outline-none transition-all duration-300 hover:-translate-y-0.5"
+          className="flex h-8 select-none items-center gap-1 rounded-lg bg-secondary px-3 font-heading font-medium text-secondary-foreground text-sm leading-none tracking-tight outline-none transition-all duration-300 hover:-translate-y-0.5"
           data-cuelume-hover="tick"
           href="https://api.whatsapp.com/send?phone=6281330990903"
           rel="noopener"

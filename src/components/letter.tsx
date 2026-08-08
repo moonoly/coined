@@ -1,7 +1,11 @@
 export function LetterSection() {
   return (
-    <section className="mt-24 flex flex-col">
-      <h2 className="text-balance text-3xl tracking-tight sm:text-4xl">
+    <section className="relative mt-24 flex flex-col before:absolute before:-inset-x-3 before:-top-3 before:border-border before:border-t before:border-dashed">
+      <span className="inline-flex select-none items-center gap-1 text-foreground/40 text-sm">
+        Have a nice day
+      </span>
+
+      <h2 className="mt-3 text-balance text-3xl tracking-tight">
         One letter
         <br />
         from the teams.

@@ -1,4 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
+import { ClientSection } from "~/components/client";
 import { HeroSection } from "~/components/hero";
 import { LetterSection } from "~/components/letter";
 import { TestimonialsSection } from "~/components/testimonials";
@@ -21,6 +22,7 @@ function RouteComponent() {
     <div className="flex flex-col">
       <HeroSection />
       <WorksSection />
+      <ClientSection />
       <TestimonialsSection />
       <LetterSection />
     </div>

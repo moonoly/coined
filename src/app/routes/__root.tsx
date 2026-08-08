@@ -43,7 +43,7 @@ function RootDocument({ children }: RootDocumentProps) {
         <HeadContent />
       </head>
       <body className="container mx-auto px-5 pt-10 pb-20 md:pt-16 lg:px-0">
-        <div className="mx-auto w-full sm:w-10/12 sm:px-5 md:w-11/12 lg:w-6/12 xl:w-5/12">
+        <div className="relative mx-auto w-full **:z-50 before:absolute before:-inset-x-3 before:inset-y-[-20vh] before:h-[370vh] before:select-none before:border-border before:border-x before:border-dashed after:absolute after:inset-x-[-100vw] after:-inset-y-3 after:w-[200vw] after:select-none after:border-border after:border-y after:border-dashed sm:w-10/12 sm:px-10 sm:before:inset-x-7 sm:before:h-[340vh] md:w-11/12 lg:w-6/12 xl:w-5/12">
           {children}
         </div>
         <Scripts />
