@@ -1,8 +1,10 @@
 export function LetterSection() {
   return (
     <section className="mt-24 flex flex-col">
-      <h2 className="text-balance text-3xl tracking-tight sm:text-5xl">
-        One letter from the teams.
+      <h2 className="text-balance text-3xl tracking-tight sm:text-4xl">
+        One letter
+        <br />
+        from the teams.
       </h2>
       <div className="mt-6 flex rounded-lg bg-surface px-5 py-7">
         <div className="prose text-foreground/60 leading-relaxed">

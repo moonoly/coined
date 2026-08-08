@@ -1,7 +1,12 @@
 export function HeroSection() {
   return (
-    <section className="flex flex-col">
-      <h1 className="text-balance text-3xl tracking-tight sm:text-5xl">
+    <section className="flex flex-col sm:pt-16">
+      <div className="flex">
+        <span className="cursor-pointer rounded-full border border-fuchsia-100 bg-fuchsia-50 px-3 py-1 font-medium text-fuchsia-600 text-xs">
+          2 slot available
+        </span>
+      </div>
+      <h1 className="mt-3 text-balance text-3xl tracking-tight sm:text-4xl">
         Helping startups
         <br />
         ship products globally.

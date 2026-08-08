@@ -49,8 +49,10 @@ function TestimonialItem() {
 export function TestimonialsSection() {
   return (
     <section className="mt-24 flex flex-col">
-      <h2 className="text-balance text-3xl tracking-tight sm:text-5xl">
-        People trusted what we do.
+      <h2 className="text-balance text-3xl tracking-tight sm:text-4xl">
+        People trusted
+        <br />
+        what we do.
       </h2>
       <div className="mt-6 flex">
         <TestimonialItem />
