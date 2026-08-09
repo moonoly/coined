@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
-    "check": "ultracite fix && tsc",
+    "check": "ultracite fix --unsafe && tsc",
     "clean": "rm -rf build dist .output .wrangler .tanstack",
     "deploy": "wrangler deploy",
     "dev": "vite dev",

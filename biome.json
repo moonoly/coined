@@ -13,7 +13,8 @@
       "performance": {
         "noBarrelFile": "off",
         "noNamespaceImport": "off",
-        "useTopLevelRegex": "off"
+        "useTopLevelRegex": "off",
+        "noJsxPropsBind": "off"
       },
       "style": {
         "noExportedImports": "off",
