@@ -8,7 +8,9 @@
       },
       "suspicious": {
         "noArrayIndexKey": "off",
-        "noExplicitAny": "off"
+        "noExplicitAny": "off",
+        "noBitwiseOperators": "off",
+        "noUnnecessaryConditions": "off"
       },
       "performance": {
         "noBarrelFile": "off",
@@ -18,7 +20,8 @@
       },
       "style": {
         "noExportedImports": "off",
-        "noMagicNumbers": "off"
+        "noMagicNumbers": "off",
+        "useDestructuring": "off"
       },
       "correctness": {
         "useImageSize": "off"
