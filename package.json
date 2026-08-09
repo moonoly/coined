@@ -14,6 +14,7 @@
     "@tanstack/react-router": "^1.170.22",
     "@tanstack/react-start": "^1.168.39",
     "cuelume": "^0.2.2",
+    "ogl": "^1.0.11",
     "react": "19.2.8",
     "react-dom": "19.2.8"
   },
