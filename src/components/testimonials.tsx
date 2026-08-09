@@ -1,6 +1,6 @@
 function TestimonialItem() {
   return (
-    <div className="group relative flex cursor-pointer flex-col rounded-lg bg-surface p-5 transition-transform duration-300 hover:-translate-y-0.5">
+    <div className="group relative flex cursor-pointer flex-col rounded-lg border border-border border-dashed bg-surface p-5 transition-transform duration-300 before:absolute before:inset-1 before:rounded-md before:border before:border-border before:border-dashed hover:-translate-y-0.5">
       <svg
         className="absolute top-5 right-5 -rotate-6"
         fill="none"
@@ -17,13 +17,13 @@ function TestimonialItem() {
         <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z" />
       </svg>
 
-      <p className="text-pretty text-foreground leading-relaxed sm:p-3">
+      <p className="text-pretty text-foreground leading-relaxed">
         Coined really nailed the design & development, works perfectly.
         Everything work seamlessly and the design looks sick, fast delivery,
         seamless communications. Just amazing work.
       </p>
 
-      <div className="mt-5 flex items-center justify-between border-border border-t border-dashed pt-4">
+      <div className="flex h-px items-center justify-between pt-8 pb-1 before:absolute before:inset-x-1 before:bottom-11 before:border-border before:border-t before:border-dashed">
         <div className="flex items-center gap-2">
           <img
             alt="Nyoman Sunima"
@@ -34,12 +34,12 @@ function TestimonialItem() {
         </div>
 
         <a
-          className="text-sm transition-all duration-300 hover:text-foreground/60"
-          href="https://moono.site"
+          className="text-foreground/40 text-sm transition-all duration-300"
+          href="https://moonoly.fyi"
           rel="noopener"
           target="_blank"
         >
-          Moono
+          Founder of Moonoly
         </a>
       </div>
     </div>

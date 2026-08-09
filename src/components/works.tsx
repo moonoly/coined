@@ -38,7 +38,7 @@ function WorkItem({ work }: WorksSectionProps) {
 export function WorksSection() {
   return (
     <section className="mt-10 flex flex-col">
-      <div className="mt-6 flex flex-col gap-3">
+      <div className="mt-6 flex flex-col gap-2">
         {works.map((work, index) => (
           <WorkItem key={index} work={work} />
         ))}

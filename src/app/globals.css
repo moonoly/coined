@@ -8,8 +8,8 @@
 @theme {
   --font-sans: "Google Sans", sans-serif;
 
-  --text-sm: 0.83rem;
-  --text-base: 0.95rem;
+  --text-sm: 0.85rem;
+  --text-base: 0.9rem;
 
   --color-background: hsl(0 0 98%);
   --color-foreground: hsl(0 0 0%);

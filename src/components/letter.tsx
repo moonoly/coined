@@ -10,11 +10,11 @@ export function LetterSection() {
         <br />
         from the teams.
       </h2>
-      <div className="mt-6 flex rounded-lg bg-surface px-5 py-7">
-        <div className="prose text-foreground/60 leading-relaxed">
+      <div className="relative mt-6 flex rounded-lg bg-surface px-5 py-7 transition-all duration-300 before:absolute before:inset-1 before:rounded-md before:border before:border-border before:border-dashed hover:-translate-y-0.5">
+        <div className="prose text-foreground/60 text-sm! leading-relaxed">
           <p>
-            Hi, i'm{" "}
-            <span className="text-foreground italic">nyoman sunima</span>,
+            Hello, I'm{" "}
+            <span className="text-foreground italic">Nyoman Sunima</span>,
             founder of Coined.
           </p>
           <p>
@@ -31,10 +31,6 @@ export function LetterSection() {
               to detail & endless iterations
             </span>{" "}
             on the tiniest ideas.
-          </p>
-          <p>
-            We hope to keep building our internal software as well as large,
-            external software. We want to fulfill our promise to ourselves.
           </p>
           <p>
             What's the next big thing you're building?
