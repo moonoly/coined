@@ -1,5 +1,6 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { ClientSection } from "~/components/client";
+import { CTASection } from "~/components/cta";
 import { FAQSection } from "~/components/faq";
 import { HeroSection } from "~/components/hero";
 import { LetterSection } from "~/components/letter";
@@ -29,6 +30,7 @@ function RouteComponent() {
       <PricingSection />
       <FAQSection />
       <LetterSection />
+      <CTASection />
     </div>
   );
 }

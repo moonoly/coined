@@ -13,7 +13,7 @@ function Accordion({ data }: AccordionProps) {
   return (
     <div className="flex flex-col transition-all duration-300">
       <button
-        className="flex cursor-pointer items-center justify-between py-1 text-sm"
+        className="flex cursor-pointer items-center justify-between py-1"
         onClick={() => setShow((state) => !state)}
         type="button"
       >
@@ -36,7 +36,7 @@ function Accordion({ data }: AccordionProps) {
         </svg>
       </button>
       <Activity mode={isShow ? "visible" : "hidden"}>
-        <div className="flex flex-col gap-3 py-3 text-foreground/60 text-sm transition-all duration-300">
+        <div className="flex flex-col gap-3 py-3 text-foreground/60 transition-all duration-300">
           {data.content}
         </div>
       </Activity>

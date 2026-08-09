@@ -11,8 +11,11 @@ export function PricingSection() {
         no hidden fees.
       </h2>
       <div className="mt-6 flex flex-col gap-2">
-        <div className="flex cursor-pointer flex-col rounded-lg border border-border border-dashed bg-surface p-1 transition-all duration-300 hover:-translate-y-0.5">
-          <div className="flex flex-col rounded-md border border-border border-dashed bg-secondary/40 px-4 py-5">
+        <div
+          className="flex cursor-pointer flex-col rounded-lg border border-border border-dashed bg-surface p-1 transition-all duration-300 hover:-translate-y-0.5"
+          data-cuelume-hover="press"
+        >
+          <div className="flex flex-col rounded-md border border-border border-dashed bg-secondary/40 px-4 pt-5 pb-10">
             <span className="font-medium text-sm">Fixed cost</span>
             <p className="mt-0.5 text-foreground/40 text-sm">
               Perfect to build custom project at one time.
@@ -77,8 +80,11 @@ export function PricingSection() {
             </span>
           </div>
         </div>
-        <div className="flex cursor-pointer flex-col rounded-lg border border-border/20 border-dashed bg-primary p-1 text-primary-foreground transition-all duration-300 hover:-translate-y-0.5">
-          <div className="flex flex-col rounded-md border border-border/30 border-dashed bg-secondary/10 px-4 py-5">
+        <div
+          className="flex cursor-pointer flex-col rounded-lg border border-border/20 border-dashed bg-primary p-1 text-primary-foreground transition-all duration-300 hover:-translate-y-0.5"
+          data-cuelume-hover="press"
+        >
+          <div className="flex flex-col rounded-md border border-border/30 border-dashed bg-secondary/10 px-4 pt-5 pb-10">
             <span className="font-medium text-sm">Partnership</span>
             <p className="mt-0.5 text-primary-foreground/40 text-sm">
               Save more for unlimited projects.

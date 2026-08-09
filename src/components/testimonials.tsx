@@ -1,6 +1,9 @@
 function TestimonialItem() {
   return (
-    <div className="group relative flex cursor-pointer flex-col rounded-lg border border-border border-dashed bg-surface p-5 transition-transform duration-300 before:absolute before:inset-1 before:rounded-md before:border before:border-border before:border-dashed hover:-translate-y-0.5">
+    <div
+      className="group relative flex cursor-pointer flex-col rounded-lg border border-border border-dashed bg-surface p-5 transition-transform duration-300 before:absolute before:inset-1 before:rounded-md before:border before:border-border before:border-dashed hover:-translate-y-0.5"
+      data-cuelume-hover="press"
+    >
       <svg
         className="absolute top-5 right-5 -rotate-6"
         fill="none"

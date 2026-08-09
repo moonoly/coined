@@ -16,9 +16,9 @@ export function HeroSection() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path d="M0 0h24v24H0z" fill="none" stroke="none" />
-            <path d="M9 9l3 3l-3 3" />
-            <path d="M13 9l3 3l-3 3" />
-            <path d="M12 3c7.2 0 9 1.8 9 9c0 7.2 -1.8 9 -9 9c-7.2 0 -9 -1.8 -9 -9c0 -7.2 1.8 -9 9 -9" />
+            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
+            <path d="M12 12l3 -2" />
+            <path d="M12 7v5" />
           </svg>
           2 slot available
         </span>
