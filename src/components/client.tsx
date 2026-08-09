@@ -11,7 +11,10 @@ export function ClientSection() {
         work with us.
       </h2>
       <div className="relative mt-6 grid grid-cols-3 gap-px before:absolute before:inset-2 before:bg-border">
-        <div className="group flex h-20 cursor-pointer items-center justify-center bg-background">
+        <div
+          className="group flex h-20 cursor-pointer items-center justify-center bg-background"
+          data-cuelume-hover="tick"
+        >
           <svg
             className="size-8 transition-all duration-300 group-hover:-translate-y-0.5"
             height="116"
@@ -33,7 +36,10 @@ export function ClientSection() {
             />
           </svg>
         </div>
-        <div className="group flex h-20 cursor-pointer items-center justify-center bg-background">
+        <div
+          className="group flex h-20 cursor-pointer items-center justify-center bg-background"
+          data-cuelume-hover="tick"
+        >
           <svg
             className="size-8 transition-all duration-300 group-hover:-translate-y-0.5"
             fill="#5A45FF"
@@ -44,7 +50,10 @@ export function ClientSection() {
             <path d="M0 12c0 9.68 2.32 12 12 12s12-2.32 12-12S21.68 0 12 0 0 2.32 0 12Zm4.84 2.492 3.762-8.555C9.238 4.498 10.46 3.716 12 3.716c1.54 0 2.762.781 3.398 2.223l3.762 8.554c.172.418.32.953.32 1.418 0 2.125-1.492 3.617-3.617 3.617-.726 0-1.3-.183-1.883-.37-.597-.192-1.203-.387-1.98-.387-.77 0-1.39.195-1.996.386-.59.188-1.168.371-1.867.371-2.125 0-3.617-1.492-3.617-3.617 0-.465.148-1 .32-1.418ZM12 7.43l-3.715 8.406c1.102-.512 2.371-.758 3.715-.758 1.297 0 2.613.246 3.664.758Z" />
           </svg>
         </div>
-        <div className="group flex h-20 cursor-pointer items-center justify-center bg-background">
+        <div
+          className="group flex h-20 cursor-pointer items-center justify-center bg-background"
+          data-cuelume-hover="tick"
+        >
           <svg
             className="size-8 transition-all duration-300 group-hover:-translate-y-0.5"
             fill="#EC1C24"
@@ -55,7 +64,10 @@ export function ClientSection() {
             <path d="M12 0c-.918 0-1.833.12-2.72.355L4.07 1.748a2.64 2.64 0 0 0-1.96 2.547v9.115a7.913 7.913 0 0 0 3.552 6.606l5.697 3.765a1.32 1.32 0 0 0 1.467-.008l5.572-3.752a7.931 7.931 0 0 0 3.493-6.57V4.295a2.638 2.638 0 0 0-1.961-2.547L14.72.355A10.594 10.594 0 0 0 12 0ZM7.383 5.4h9.228c.726 0 1.32.594 1.32 1.32 0 .734-.587 1.32-1.32 1.32H7.383c-.727 0-1.32-.593-1.32-1.32 0-.726.593-1.32 1.32-1.32zM7.38 9.357h3.299c.727 0 1.32.595 1.32 1.32a1.32 1.32 0 0 1-1.318 1.32H7.38c-.726 0-1.32-.592-1.32-1.32 0-.725.594-1.32 1.32-1.32zm0 3.96c.727 0 1.32.593 1.32 1.32 0 .727-.586 1.318-1.32 1.318-.726 0-1.32-.592-1.32-1.318 0-.727.594-1.32 1.32-1.32z" />
           </svg>
         </div>
-        <div className="group flex h-20 cursor-pointer items-center justify-center bg-background">
+        <div
+          className="group flex h-20 cursor-pointer items-center justify-center bg-background"
+          data-cuelume-hover="tick"
+        >
           <svg
             className="size-8 transition-all duration-300 group-hover:-translate-y-0.5"
             fill="#00B388"
@@ -66,7 +78,10 @@ export function ClientSection() {
             <path d="M23.451 5.906a6.978 6.978 0 0 0-5.375-5.39C16.727.204 14.508 0 12 0S7.273.204 5.924.516a6.978 6.978 0 0 0-5.375 5.39C.237 7.26.034 9.485.034 12s.203 4.74.515 6.094a6.978 6.978 0 0 0 5.375 5.39C7.273 23.796 9.492 24 12 24s4.727-.204 6.076-.516a6.978 6.978 0 0 0 5.375-5.39c.311-1.354.515-3.578.515-6.094 0-2.515-.203-4.74-.515-6.094zm-5.873 12.396l-.003.001c-.428.152-1.165.283-2.102.377l-.147.014a.444.444 0 0 1-.45-.271 1.816 1.816 0 0 0-1.296-1.074c-.351-.081-.928-.134-1.58-.134s-1.229.053-1.58.134a1.817 1.817 0 0 0-1.291 1.062.466.466 0 0 1-.471.281 8 8 0 0 0-.129-.012c-.938-.094-1.676-.224-2.105-.377l-.003-.001a.76.76 0 0 1-.492-.713c0-.032.003-.066.005-.098.073-.979.666-3.272 1.552-5.89C8.5 8.609 9.559 6.187 10.037 5.714a1.029 1.029 0 0 1 .404-.26l.004-.002c.314-.106.892-.178 1.554-.178.663 0 1.241.071 1.554.178l.005.002a1.025 1.025 0 0 1 .405.26c.478.472 1.537 2.895 2.549 5.887.886 2.617 1.479 4.91 1.552 5.89.002.032.005.066.005.098a.76.76 0 0 1-.491.713z" />
           </svg>
         </div>
-        <div className="group flex h-20 cursor-pointer items-center justify-center bg-background">
+        <div
+          className="group flex h-20 cursor-pointer items-center justify-center bg-background"
+          data-cuelume-hover="tick"
+        >
           <svg
             className="size-8 transition-all duration-300 group-hover:-translate-y-0.5"
             fill="none"
@@ -89,7 +104,10 @@ export function ClientSection() {
             </defs>
           </svg>
         </div>
-        <div className="group flex h-20 cursor-pointer items-center justify-center bg-background">
+        <div
+          className="group flex h-20 cursor-pointer items-center justify-center bg-background"
+          data-cuelume-hover="tick"
+        >
           <svg
             className="size-8 transition-all duration-300 group-hover:-translate-y-0.5"
             fill="#FFB746"

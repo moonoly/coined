@@ -14,29 +14,30 @@ function Accordion({ data }: AccordionProps) {
     <div className="flex flex-col transition-all duration-300">
       <button
         className="flex cursor-pointer items-center justify-between py-1"
+        data-cuelume-press
+        data-cuelume-release
         onClick={() => setShow((state) => !state)}
         type="button"
       >
         <span>{data.title}</span>
         <svg
           fill="none"
-          height={14}
+          height={12}
           stroke="currentColor"
           strokeLinecap="round"
           strokeLinejoin="round"
           strokeWidth={2}
           viewBox="0 0 24 24"
-          width={14}
+          width={12}
           xmlns="http://www.w3.org/2000/svg"
         >
           <path d="M0 0h24v24H0z" fill="none" stroke="none" />
-          <path d="M12 3c7.2 0 9 1.8 9 9c0 7.2 -1.8 9 -9 9c-7.2 0 -9 -1.8 -9 -9c0 -7.2 1.8 -9 9 -9" />
-          <path d="M15 12h-6" />
-          <path d="M12 9v6" />
+          <path d="M12 5l0 14" />
+          <path d="M5 12l14 0" />
         </svg>
       </button>
       <Activity mode={isShow ? "visible" : "hidden"}>
-        <div className="flex flex-col gap-3 py-3 text-foreground/60 transition-all duration-300">
+        <div className="relative flex flex-col gap-3 py-3 pb-10 text-foreground/60 transition-all duration-300 after:absolute after:-inset-x-3 after:bottom-6 after:border-border after:border-b after:border-dashed">
           {data.content}
         </div>
       </Activity>
@@ -48,7 +49,7 @@ export function FAQSection() {
   return (
     <section className="relative mt-24 flex flex-col before:absolute before:-inset-x-3 before:-top-3 before:border-border before:border-t before:border-dashed">
       <span className="inline-flex select-none items-center gap-1 text-foreground/40 text-sm">
-        FAQs.
+        FAQs
       </span>
 
       <h2 className="mt-3 text-balance text-3xl tracking-tight">
@@ -56,7 +57,7 @@ export function FAQSection() {
         <br />
         questions.
       </h2>
-      <div className="mt-6 flex flex-col gap-2">
+      <div className="mt-6 flex flex-col gap-2.5">
         <Accordion
           data={{
             content: (

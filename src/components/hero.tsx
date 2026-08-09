@@ -16,9 +16,8 @@ export function HeroSection() {
             xmlns="http://www.w3.org/2000/svg"
           >
             <path d="M0 0h24v24H0z" fill="none" stroke="none" />
-            <path d="M3 12a9 9 0 1 0 18 0a9 9 0 1 0 -18 0" />
-            <path d="M12 12l3 -2" />
-            <path d="M12 7v5" />
+            <path d="M18.816 13.58c2.292 2.138 3.546 4 3.092 4.9c-.745 1.46 -5.783 -.259 -11.255 -3.838c-5.47 -3.579 -9.304 -7.664 -8.56 -9.123c.464 -.91 2.926 -.444 5.803 .805" />
+            <path d="M5 12a7 7 0 1 0 14 0a7 7 0 1 0 -14 0" />
           </svg>
           2 slot available
         </span>
@@ -59,7 +58,7 @@ export function HeroSection() {
         <a
           className="flex h-8 select-none items-center gap-1 rounded-lg bg-secondary px-3 font-heading font-medium text-secondary-foreground text-sm leading-none tracking-tight outline-none transition-all duration-300 hover:-translate-y-0.5"
           data-cuelume-hover="tick"
-          href="https://api.whatsapp.com/send?phone=6281330990903"
+          href="https://t.me/nyomansunima"
           rel="noopener"
           target="_blank"
         >

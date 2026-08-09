@@ -10,7 +10,10 @@ export function LetterSection() {
         <br />
         from the teams.
       </h2>
-      <div className="relative mt-6 flex rounded-lg bg-surface px-5 py-7 transition-all duration-300 before:absolute before:inset-1 before:rounded-md before:border before:border-border before:border-dashed hover:-translate-y-0.5">
+      <div
+        className="relative mt-6 flex rounded-lg bg-surface px-5 py-7 transition-all duration-300 before:absolute before:inset-1 before:rounded-md before:border before:border-border before:border-dashed hover:-translate-y-0.5"
+        data-cuelume-hover="press"
+      >
         <div className="prose text-foreground/60 text-sm! leading-relaxed">
           <p>
             Hello, I'm{" "}
