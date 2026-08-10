@@ -33,7 +33,7 @@ export function HeroSection() {
       </p>
       <div className="mt-10 flex items-center gap-3">
         <a
-          className="flex h-8 select-none items-center gap-1 rounded-lg bg-primary px-3 font-heading font-medium text-primary-foreground text-sm leading-none tracking-tight outline-none transition-all duration-300 hover:-translate-y-0.5"
+          className="flex h-8 select-none items-center gap-1 rounded-full bg-primary px-3 font-heading font-medium text-primary-foreground text-sm leading-none tracking-tight outline-none transition-all duration-300 hover:-translate-y-0.5"
           data-cuelume-hover="tick"
           href="https://cal.com/nyomansunima/coined"
           rel="noopener"
@@ -56,7 +56,7 @@ export function HeroSection() {
         </a>
 
         <a
-          className="flex h-8 select-none items-center gap-1 rounded-lg bg-secondary px-3 font-heading font-medium text-secondary-foreground text-sm leading-none tracking-tight outline-none transition-all duration-300 hover:-translate-y-0.5"
+          className="flex h-8 select-none items-center gap-1 rounded-full bg-secondary px-3 font-heading font-medium text-secondary-foreground text-sm leading-none tracking-tight outline-none transition-all duration-300 hover:-translate-y-0.5"
           data-cuelume-hover="tick"
           href="https://t.me/nyomansunima"
           rel="noopener"

@@ -1,32 +1,16 @@
 function TestimonialItem() {
   return (
     <div
-      className="group relative flex cursor-pointer flex-col rounded-lg border border-border border-dashed bg-surface p-5 transition-transform duration-300 before:absolute before:inset-1 before:rounded-md before:border before:border-border before:border-dashed hover:-translate-y-0.5"
+      className="group relative flex cursor-pointer flex-col rounded-lg border border-border border-dashed bg-surface p-1 transition-all duration-300 hover:-translate-y-0.5"
       data-cuelume-hover="press"
     >
-      <svg
-        className="absolute top-5 right-5 -rotate-6"
-        fill="none"
-        height="20"
-        stroke="currentColor"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-        strokeWidth="2"
-        viewBox="0 0 24 24"
-        width="20"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z" />
-        <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z" />
-      </svg>
-
-      <p className="text-pretty text-foreground leading-relaxed">
-        Coined really nailed the design & development, works perfectly.
+      <p className="overflow-hidden text-pretty rounded-md border border-border border-dashed bg-secondary/40 px-3 pt-5 pb-12 text-foreground leading-relaxed">
+        "Coined really nailed the design & development, works perfectly.
         Everything work seamlessly and the design looks sick, fast delivery,
-        seamless communications. Just amazing work.
+        seamless communications. Just amazing work."
       </p>
 
-      <div className="flex h-px items-center justify-between pt-8 pb-1 before:absolute before:inset-x-1 before:bottom-11 before:border-border before:border-t before:border-dashed">
+      <div className="flex items-center justify-between px-3 pt-4 pb-3">
         <div className="flex items-center gap-2">
           <img
             alt="Nyoman Sunima"
@@ -37,7 +21,7 @@ function TestimonialItem() {
         </div>
 
         <a
-          className="text-foreground/40 text-sm transition-all duration-300"
+          className="text-foreground/40 text-sm transition-all duration-300 hover:text-foreground"
           href="https://moonoly.fyi"
           rel="noopener"
           target="_blank"

@@ -71,7 +71,7 @@ export function PricingSection() {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col px-5 pt-5 pb-3">
+          <div className="flex flex-col px-4 pt-5 pb-3">
             <span className="text-foreground/40 text-sm">
               Projects range from
             </span>
@@ -188,7 +188,7 @@ export function PricingSection() {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col px-5 pt-5 pb-3">
+          <div className="flex flex-col px-4 pt-5 pb-3">
             <span className="text-primary-foreground/40 text-sm">
               Starting at
             </span>

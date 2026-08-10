@@ -11,10 +11,10 @@ export function LetterSection() {
         from the teams.
       </h2>
       <div
-        className="relative mt-6 flex rounded-lg bg-surface px-5 py-7 transition-all duration-300 before:absolute before:inset-1 before:rounded-md before:border before:border-border before:border-dashed hover:-translate-y-0.5"
+        className="relative mt-6 flex cursor-pointer rounded-lg bg-surface px-5 py-7 transition-all duration-300 before:absolute before:inset-1 before:rounded-md before:border before:border-border before:border-dashed before:bg-secondary/40 hover:-translate-y-0.5"
         data-cuelume-hover="press"
       >
-        <div className="prose text-foreground/60 text-sm! leading-relaxed">
+        <div className="prose text-foreground/60 leading-relaxed">
           <p>
             Hello, I'm{" "}
             <span className="text-foreground italic">Nyoman Sunima</span>,
@@ -22,7 +22,7 @@ export function LetterSection() {
           </p>
           <p>
             We have learned so much about building{" "}
-            <span className="text-foreground italic">
+            <span className="text-foreground">
               companies, copywriting, tone, presentation & communication
             </span>{" "}
             because of people like you.
@@ -38,7 +38,7 @@ export function LetterSection() {
           <p>
             What's the next big thing you're building?
             <br />
-            <span className="text-foreground italic">
+            <span className="text-foreground">
               Send the message. We'd love to hear.
             </span>
           </p>
