@@ -1,10 +1,14 @@
-import { StudioPorcelainBackground } from "./shader";
-
 export function CTASection() {
   return (
     <section className="relative mt-24 flex flex-col before:absolute before:-inset-x-3 before:-top-3 before:border-border before:border-t before:border-dashed">
+      <video
+        autoPlay={true}
+        className="absolute inset-0 overflow-hidden rounded-lg"
+        loop={true}
+        muted={true}
+        src="/assets/porcelain-fold.webm"
+      />
       <div className="relative flex cursor-pointer flex-col items-center overflow-hidden rounded-lg px-3 py-10">
-        <StudioPorcelainBackground />
         <span className="inline-flex select-none items-center gap-1 text-background/60 text-sm">
           Secure your slot
         </span>

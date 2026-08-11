@@ -16,11 +16,6 @@ export function LetterSection() {
       >
         <div className="prose text-foreground/60 leading-relaxed">
           <p>
-            Hello, I'm{" "}
-            <span className="text-foreground italic">Nyoman Sunima</span>,
-            founder of Coined.
-          </p>
-          <p>
             We have learned so much about building{" "}
             <span className="text-foreground">
               companies, copywriting, tone, presentation & communication
