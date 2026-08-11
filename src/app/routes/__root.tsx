@@ -47,8 +47,8 @@ function RootDocument({ children }: RootDocumentProps) {
           <div className="relative mx-auto w-full **:z-50 before:absolute before:-inset-x-3 before:-top-20 before:h-[calc(100%+140px)] before:select-none before:border-border before:border-x before:border-dashed after:absolute after:-inset-y-3 after:left-[-100vw] after:w-[200vw] after:select-none after:border-border after:border-y after:border-dashed sm:w-10/12 sm:px-10 sm:before:inset-x-7 md:w-11/12 lg:w-6/12 xl:w-5/12">
             {children}
           </div>
-          <Scripts />
         </main>
+        <Scripts />
       </body>
     </html>
   );
